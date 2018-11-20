@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-size: 14px;
+    background: #fff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+}
+html,body{
+    max-width: 640px;
+    height: 100%;
+    margin: 0 auto;
+}
+/* banner */
+.index-content .banner img{
+    width: 100%;
+    height: 40%;
+}
+/* imgList */
+.index-main{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.index-main p{
+    padding: 0 20px;
+}
+.index-main ul .lists{
+    width: 50%;
+     float: left; 
+    text-align: center;
+    margin: 10px 0;
+}
+.index-main ul .lists img{
+    width: 90%;
+}
+.index-main ul .lists label{
+    display: block;
+}
+.index-main ul .lists .discount{
+        text-decoration: line-through;
+        color:#f00;
+}
+.index-main ul .lists .price-text{
+     display: block;
+}
+.index-content .footer{
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    position: fixed; 
+    z-index: 99;
+    bottom: 0;
+    padding: 20px;
+}
+
